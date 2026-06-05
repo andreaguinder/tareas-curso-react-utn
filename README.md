@@ -4,12 +4,12 @@
 
 ### Requerimientos
 
-* Estructura HTML con secciones <header>, <main> y <footer>.
-* En el <header> se incluye un <h1> y un menú de navegación con una lista <ul> con al menos 3 enlaces <a>
-* En el <main> se incluye:
-- Un <article> con: al menos un <h2>, con al menos una etiqueta semántica de texto (<strong>), una imagen con alt descriptivo y una lista ordenada <ol> con 3 pasos.
-- Un formulario <form> con Campo de texto para nombre, campo de email, selector <select> con 3 opciones y botón para enviar.
-* En el <footer> se incluye un texto <small> con nombre y año.
+* Estructura HTML con secciones < header >, < main > y < footer >.
+* En el < header > se incluye un < h1 > y un menú de navegación con una lista < ul > con al menos 3 enlaces < a >
+* En el < main > se incluye:
+- Un < article > con: al menos un < h2 >, con al menos una etiqueta semántica de texto (< strong >), una imagen con alt descriptivo y una lista ordenada < ol > con 3 pasos.
+- Un formulario < form > con Campo de texto para nombre, campo de email, selector < select > con 3 opciones y botón para enviar.
+* En el < footer > se incluye un texto < small > con nombre y año.
 * Se declararon al menos 3 variables CSS y se utilizó un archivo externo.
 
 ### Descripción
