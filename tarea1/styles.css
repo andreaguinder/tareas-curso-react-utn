@@ -1,0 +1,151 @@
+:root {
+    --color-principal: rgb(251, 122, 30);
+        --color-secundario: rgb(159, 6, 6);
+    --fuente-base: "Inter", sans-serif;
+    --fuente-titulos: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuente-base);
+}
+
+body {
+    background-color: #fffded;
+}
+
+header, nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    list-style-type: none;
+        color: var(--color-secundario);
+    background-color: rgb(249, 233, 183);
+    padding: 20px;
+    height: 120px;
+}
+
+
+nav ul li a  {
+        color: var(--color-secundario);
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: var(--color-principal);
+}
+
+h1 {
+    font-family: var(--fuente-titulos);
+    margin-right: 40px;
+}
+
+#introduccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 40px auto 0px;
+}
+
+#introduccion article {
+max-width: 700px;
+color: black;
+}
+
+#introduccion img {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: var(--color-principal);
+}
+
+#preparacion {
+    margin: auto;
+}
+
+#preparacion h2 {
+    text-align: center;
+    margin: 40px auto 35px;
+}
+
+#preparacion ol {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+        max-width: 1280px;
+    margin: auto;
+}
+
+#preparacion ol li {
+    max-width: 450px;
+}
+
+form {
+    max-width: 1000px;
+    background-color: rgb(255, 244, 213);
+    padding: 30px;
+    border-radius: 30px;
+    margin: 40px auto;
+    color: black;
+}
+
+fieldset {
+    border-color: var(--color-principal);
+    padding: 30px;
+}
+
+legend {
+    font-family: var(--fuente-titulos);
+    font-size: 24px;
+    color: var(--color-principal);
+    padding: 0 10px;
+}
+
+input, select {
+    min-width: 180px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+form button {
+width: 50%;
+color: white;
+background-color: var(--color-principal);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 7px;
+border-radius: 10px;
+margin: 20px auto 0px;
+font-size: 20px;
+}
+
+form .mail {
+    margin: 0 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 233, 183);
+    padding: 20px;
+    height: 60px;
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--color-secundario);
+}

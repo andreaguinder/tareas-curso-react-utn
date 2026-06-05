@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Receta de pizza</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tu pizza casera favorita</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduccion">INICIO</a></li>
+                <li><a href="#preparacion">PREPARACIÓN</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="introduccion">
+            <article>
+                <h2> El secreto de la masa</h2>
+                Hacer pizza en casa es un viaje de ida. Aunque muchos piensan que el secreto está en la salsa,
+                <strong>la
+                    verdadera
+                    magia</strong> ocurre en la fermentación de la masa. Dejarla descansar el tiempo suficiente no solo
+                hace que
+                quede
+                más crocante por fuera y esponjosa por dentro, sino que también la vuelve mucho más liviana y fácil de
+                digerir. Un buen chorro de aceite de oliva en el molde antes de estirarla le va a dar ese <strong>piso
+                    dorado
+                    inigualable</strong>.
+            </article>
+
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600"
+                alt="Pizza muzzarella saliendo del horno con albahaca fresca.">
+        </section>
+
+        <section id="preparacion">
+            <h2>PREPARACIÓN</h2>
+            <ol>
+                <li>Disolver la levadura: Mezclar 20g de levadura fresca en un vaso de agua tibia con una cucharadita de
+                    azúcar y dejar reposar 10 minutos hasta que espume.</li>
+                <li>Armar la masa: Colocar 500g de harina en un bol, hacer un hueco en el centro, sumar la levadura
+                    activada, dos cucharadas de aceite de oliva y una cucharadita de sal por los bordes. Integrar todo y
+                    amasar por 10 minutos.</li>
+                <li>Leudado: Dejar descansar la masa tapada en un lugar cálido durante 1 hora o hasta que duplique su
+                    tamaño.</li>
+                <li>Estirar y hornear: Dividir en dos bollos, estirar en aceiteras, agregar la salsa de tomate y mandar
+                    a horno fuerte por 10 minutos (precocción). Sacar, poner la muzzarella y volver al horno hasta que
+                    se derrita.</li>
+            </ol>
+        </section>
+
+
+        <form id="contacto">
+            <fieldset>
+                <legend>Escribanos para su receta con variantes</legend>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required />
+                <span class="mail">
+                    <label for="email">Mail:</label>
+                    <input type="text" id="email" name="email" required />
+                </span>
+                <label for="variante">
+                    <span>Receta de pizza:</span>
+                </label>
+                <select id="variante" name="variante-pizza">
+                    <option value="stacc">Sin TACC (Libre de gluten)</option>
+                    <option value="integral">Integral (Con más fibra)</option>
+                    <option value="amex">Con Masa Madre (Fermentación natural)</option>
+                </select>
+
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+
+    </main>
+
+
+    <footer>
+        <small>Diseño y desarrollo por <a href="https://andreaguinder.com/">Andrea Guinder</a> | 2026 Todos los derechos
+            reservados</small>
+    </footer>
+
+</body>
+
+</html>
