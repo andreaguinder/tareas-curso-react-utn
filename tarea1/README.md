@@ -1,5 +1,4 @@
-# Curso de React de la UTN: TAREA 1 - Andrea Guinder
-
+# Curso de Desarrollo en React JS - Andrea Belén Guinder Vichich - Módulo 1 - Unidad 1 - Tarea N1
 
 ## Información sobre el proyecto:
 
@@ -13,17 +12,30 @@
 * En el <footer> se incluye un texto <small> con nombre y año.
 * Se declararon al menos 3 variables CSS y se utilizó un archivo externo.
 
-* Se agregan otras etiquetas y atributos para darle coherencia y estética a la página.
+### Descripción
 
-### Instrucciones para clonar el repositorio y abrir la página
+Se realizó una landing page sencilla de una receta para preparar una pizza con los requerimientos pedidos y algunos agregados para darle coherencia y estética a la página.
 
-* Una vez abierto el enlace del repositorio de GitHUb, ubicar el botón que dice "<> Code", al hacer click en ese botón, mostrará una url que se puede copiar para clonar el repositorio.
+## 🚀 Instrucciones de Instalación y Ejecución
 
-### Captura de pantalla de la página final
+Para clonar este proyecto y visualizarlo de forma local en tu navegador, seguí estos pasos:
+
+### 1. Obtener la URL del repositorio
+1. Entrá al repositorio en GitHub.
+2. Hacé clic en el botón verde que dice **Code** (ubicado arriba a la derecha).
+3. Asegurate de seleccionar la pestaña **HTTPS** y copiá la URL que te aparece.
+
+### 2. Clonar el repositorio
+Abrí tu terminal o consola de comandos, posicionate en la carpeta donde quieras guardar el proyecto y ejecutá el siguiente comando (reemplazando por la URL que copiaste):
+
+### 3. En la Terminal del Editor de código
+git clone [https://github.com/andreaguinder/tareas-curso-react-utn.git](https://github.com/andreaguinder/tareas-curso-react-utn.git)
+
+## Captura de pantalla de la página final
 
 * Dentro de esta misma carpeta adjunto una captura de la página.
 
-### Bibliografía y créditos
+## Bibliografía y créditos
 
 * La imagen utilizada es de uso libre de la plataforma Unsplash.
 
