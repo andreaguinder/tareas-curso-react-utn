@@ -1,6 +1,6 @@
 # Curso de Desarrollo en React JS - Andrea Belén Guinder Vichich - Módulo 1 - Unidad 1 - Tarea N1
 
-## Información sobre el proyecto:
+## ℹ️ Información sobre el proyecto
 
 ### Requerimientos
 
@@ -31,15 +31,15 @@ Abrí tu terminal o consola de comandos, posicionate en la carpeta donde quieras
 ### 3. En la Terminal del Editor de código
 git clone [https://github.com/andreaguinder/tareas-curso-react-utn.git](https://github.com/andreaguinder/tareas-curso-react-utn.git)
 
-## Captura de pantalla de la página final
+## 📸 Captura de pantalla de la página final
 
 * Dentro de esta misma carpeta adjunto una captura de la página.
 
-## Bibliografía y créditos
+## 📖 Bibliografía y créditos
 
 * La imagen utilizada es de uso libre de la plataforma Unsplash.
 
 * MDN Web Docs. (s.f.-a). HTML: HyperText Markup Language. Mozilla Corporation.
 https://developer.mozilla.org/en-US/docs/Web/HTML
 
-### [Portfolio personal](https://andreaguinder.com/)
+## 🔗 [Portfolio Andrea Guinder](https://andreaguinder.com/)
